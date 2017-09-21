@@ -1,0 +1,95 @@
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+
+i {
+  font-family: "Noto Sans Japanese", sans-serif;
+}
+
+.logo,
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: #b64c6e;
+  border-bottom: 1.5px solid #d89fb0;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-color: #860927;
+  color: #860927;
+}
+
+.red {
+  color: #b64c6e;
+}
+
+.red:hover {
+  color: #860927;
+}
+
+.line {
+  border-bottom: 2px solid #e2e2e2;
+}
+
+.line-both {
+  border-bottom: 2px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+}
+
+.btn-ghost {
+  border: 2px solid #d89fb0;
+  color: #b64c6e;
+}
+
+.btn-ghost:hover {
+  border: 2px solid #860927;
+  background-color: #b64c6e;
+  color: #860927;
+}
+
+a {
+  text-decoration: none;
+}
+
+.grey {
+  color: gray;
+}
+
+.red line {
+  border-bottom: 1px solid #d89fb0;
+}
+
+.red-line:hover {
+  border-bottom: 1px solid #860927;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .max-length-eng {
+    max-width: 17rem;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .max-length-eng {
+    max-width: 24em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .logo {
+    text-align: left;
+  }
+
+  ul {
+    text-align: right;
+  }
+
+}
